@@ -1,0 +1,23 @@
+{
+  "name": "mol.dog",
+  "version": "1.0.0",
+  "description": "THE molecular AI start-up",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html --host localhost --no-cache ",
+    "build-prod": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "bulma-extensions": "^6.2.7",
+    "bulma-timeline": "^3.0.4"
+  }
+}
