@@ -1,91 +1,311 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>moldog</title>
-    <link rel="stylesheet" href="styles.scss">
-  </head>
-  <body>
-    <section class="hero is-primary is-medium">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <p class="title">
-                    moldog
-                  </p>
-                  <p class="subtitle">
-                    The molecular discovery AI company run by dogs
-                  </p>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>moldog</title>
+  <link rel="stylesheet" href="styles.scss">
+</head>
+
+<body>
+  <section class="hero hero-background is-primary is-medium">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#home">
+          <img src="static/dog-logo.svg" width="180">
+
+      </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-light" href="#products">
+                <strong>Products</strong>
+              </a>
+              <a class="button is-light" href="team">
+                Our Team
+              </a>
             </div>
+          </div>
         </div>
-      </section>
-  <section class="section">
+      </div>
+    </nav>
+    <div id="home" class="hero-body">
       <div class="container has-text-centered">
+        <img src="static/dog-logo.svg">
+
         <p class="title">
-            Molecular AI
-          </p>
-        <p class="subtitle">
-            Adding value to your pipeline
+          moldog
+        </p>
+        <p class="subtitle has-text-black">
+          The molecular discovery ✨AI✨ company run by dogs
         </p>
       </div>
-      <br>
-    <div class="timeline is-centered">
-        <header class="timeline-header">
-          <span class="tag is-medium is-primary">Design Target</span>
-        </header>
-        <div class="timeline-item is-primary">
-          <div class="timeline-marker is-primary"></div>
-          <div class="timeline-content">
-            <p class="heading">Emoji Math</p>
-            <p>Improving your hypothesis and concept generation through novel<br> AI representations</p>
-          </div>
-        </div>
-        <header class="timeline-header">
-            <span class="tag is-primary">Explore Chemical Space</span>
-          </header>
-        <div class="timeline-item is-warning">
-          <div class="timeline-marker is-warning is-image is-32x32">
-            <img src="https://bulma.io/images/placeholders/32x32.png">
-          </div>
-          <div class="timeline-content">
-            <p class="heading">Molecular Dream</p>
-            <p>Generate novel molecules with AI-powered <br>molecular generator</p>
-          </div>
-        </div>
-        <div class="timeline-item is-warning">
-            <div class="timeline-marker is-warning is-image is-32x32">
-              <img src="https://bulma.io/images/placeholders/32x32.png">
-            </div>
-            <div class="timeline-content">
-              <p class="heading">chemhover</p>
-              <p>Browse the internet to find SMILES with <br> AI-powered extension chemhover</p>
-            </div>
-          </div>
-        <header class="timeline-header">
-          <span class="tag is-primary">Molecule Optimization</span>
-        </header>
-        <div class="timeline-item is-danger">
-          <div class="timeline-marker is-danger is-icon">
-            <i class="fa fa-flag"></i>
-          </div>
-          <div class="timeline-content">
-            <p class="heading">Emoji Chem</p>
-            <p>Using a novel AI-generated representation of chemistry with emojis, <br>you can gain a better chemical understanding</p>
-          </div>
-        </div>
-        <div class="timeline-item is-danger">
-            <div class="timeline-marker is-danger is-icon">
-              <i class="fa fa-flag"></i>
-            </div>
-            <div class="timeline-content">
-              <p class="heading">skunk</p>
-              <p>Ensure you present the <i>optimal</i> findings <br> using SVG figures</p>
-            </div>
-          </div>
-        <header class="timeline-header">
-          <span class="tag is-medium is-primary">Optimized Molecule</span>
-        </header>
-      </div>
+    </div>
   </section>
-  </body>
+  <section id="products" class="section">
+    <div class="container has-text-centered">
+      <p class="title">
+        Molecular AI
+      </p>
+      <p class="subtitle">
+        Adding value to your pipeline
+      </p>
+    </div>
+    <br>
+    <div class="timeline is-centered">
+      <header class="timeline-header">
+        <span class="tag is-medium is-primary">Target Identification</span>
+      </header>
+      <div class="timeline-item is-primary">
+        <div class="timeline-marker is-primary is-icon">🔬</div>
+        <div class="timeline-content">
+          <p class="heading">Emoji Math 🧮</p>
+          <p>Improving your hypothesis and concept generation through novel<br> ✨AI✨ representations</p>
+        </div>
+      </div>
+      <header class="timeline-header">
+        <span class="tag is-warning">Explore Chemical Space</span>
+      </header>
+      <div class="timeline-item is-warning">
+        <div class="timeline-marker is-warning is-icon">
+          🔭
+        </div>
+        <div class="timeline-content">
+          <p class="heading">Molecular Dream💭</p>
+          <p>Generate novel molecules with ✨AI✨-powered <br>molecular generator</p>
+        </div>
+      </div>
+      <div class="timeline-item is-warning">
+        <div class="timeline-marker is-warning is-icon">
+          ⚗️
+        </div>
+        <div class="timeline-content">
+          <p class="heading">chemhover🚁</p>
+          <p>Browse the internet to find SMILES with <br> AI-powered extension chemhover</p>
+        </div>
+      </div>
+      <header class="timeline-header">
+        <span class="tag is-danger">Molecule Optimization</span>
+      </header>
+      <div class="timeline-item is-danger">
+        <div class="timeline-marker is-danger is-icon">
+          😃
+        </div>
+        <div class="timeline-content">
+          <p class="heading">Emoji Chem</p>
+          <p>Using a novel AI-generated representation of chemistry with emojis, <br>you can gain a better chemical
+            understanding</p>
+        </div>
+      </div>
+      <div class="timeline-item is-danger">
+        <div class="timeline-marker is-danger is-icon">
+          🦨
+        </div>
+        <div class="timeline-content">
+          <p class="heading">skunk</p>
+          <p>Ensure you present the <i>optimal</i> findings <br> using SVG figures</p>
+        </div>
+      </div>
+      <header class="timeline-header">
+        <span class="tag is-medium is-primary">🎉Perfect Molecule🎉</span>
+      </header>
+    </div>
+  </section>
+  <section class="paper-background section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+        </div>
+        <div class="column box has-text-centered">
+          <p class="title">
+            Executive Team
+          </p>
+          <p class="">
+            Thanks to our animal diversity initiative, over 30% of our executive team is feline📈 More than 30 points
+            above the
+            Fortune 500 average😻
+          </p>
+        </div>
+        <div class="column"></div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Chief Excavation Officer (CEO)
+              </p>
+            </header>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/team/cto.jpg" alt="Dog">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Siggi</p>
+                  <p class="subtitle is-6"> <a href="https://twitter.com/andrewwhite01">@andrewwhite01</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                Siggi is in charge of running the company and digging holes. He is top-dog at the company.
+                <br>
+                <p><i>Joined 2021</i></p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Chief Meow Officer (CMO)
+              </p>
+            </header>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/team/cmo.jpg" alt="Cat">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">cat</p>
+                  <p class="subtitle is-6"> <a href="https://twitter.com/olexandr">@olexandr</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                cat is in charge of running the company and digging holes. He is top-dog at the company.
+                <br>
+                <p><i>Joined 2021</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Chief Fluff Officer (CFO)
+              </p>
+            </header>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/team/corgi.jpg" alt="Dog">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Pakora </p>
+                  <p class="subtitle is-6"> <a href="https://twitter.com/tiwarylab">@tiwarylab</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                Pakora is in charge of running the company and digging holes. He is top-dog at the company.
+                <br>
+                <p><i>Joined 2021</i></p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Chief Laying Officer (CLO)
+              </p>
+            </header>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/team/fluffer.jpg" alt="Dog">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">fluffer</p>
+                  <p class="subtitle is-6"> <a href="https://twitter.com/draparente">@draparente</a></p>
+                </div>
+              </div>
+              <div class="content">
+                fluffer is in charge of running the company and digging holes. He is top-dog at the company.
+                <br>
+                <p><i>Joined 2021</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Chief Sniffing Officer (CSO)
+              </p>
+            </header>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/team/cso.jpg" alt="Dog">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Duffy</p>
+                  <p class="subtitle is-6"> <a href="https://twitter.com/MaximZiatdinov">@MaximZiatdinov</a></p>
+                </div>
+              </div>
+              <div class="content">
+                Duffy is in charge of running the company and digging holes. He is top-dog at the company.
+                <br>
+                <p><i>Joined 2021</i></p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Chief Observing Officer (COO)
+              </p>
+            </header>
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/team/head.jpg" alt="Cat">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">cat</p>
+                  <p class="subtitle is-6"> <a href="https://twitter.com/pddixit">@pddixit</a></p>
+                </div>
+              </div>
+
+              <div class="content">
+                cat is in charge of running the company and digging holes. He is top-dog at the company.
+                <br>
+                <p><i>Joined 2021</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>

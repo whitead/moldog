@@ -1,14 +1,42 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
 // Set your brand colors
-$purple: #8A4D76;
-
+$green: #01bd80;
+$blue: #42bedf;
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
-$primary: $purple;
+$family-sans-serif: 'Montserrat', sans-serif;
+$primary: $green;
+$secondary: $blue;
 
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma-extensions/bulma-timeline/dist/css/bulma-timeline.sass";
+
+.hero-background {
+    background-image: url("static/hero.jpg");
+    background-color: $primary;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.paper-background {
+    background-image: url("static/trees.jpg");
+    background-color: rgba(0,0,0,0.0);
+    background-position-y: top;
+    background-position-x: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+html {
+    font-size: 12px;
+    @include tablet {
+      font-size: 16px;
+    }
+    @include desktop {
+      font-size: 20px;
+    }
+  }
