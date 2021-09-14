@@ -4,12 +4,13 @@
 
 // Set your brand colors
 $green: #01bd80;
-$blue: #42bedf;
+$blue: #6742df;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Montserrat', sans-serif;
 $primary: $green;
 $secondary: $blue;
+$navbar-burger-color: $blue;
 
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma-extensions/bulma-timeline/dist/css/bulma-timeline.sass";
@@ -54,4 +55,8 @@ html {
 .is-dark-trans-background{
     background: rgba(0, 0, 0 , 0.2);
     padding-bottom: 1rem;
+}
+
+.navbar-burger {
+  color: #333 !important;
 }
