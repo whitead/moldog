@@ -5,7 +5,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel src/index.html --host localhost --no-cache ",
-    "build-prod": "parcel build src/index.html --public-url ./"
+    "build-prod": "parcel build src/index.html --public-url https://mol.dog/"
   },
   "keywords": [],
   "author": "",
